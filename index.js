@@ -9,7 +9,7 @@ function writeCards(arr,string2){
   }
   return array;
 }
-
+writeCards()
 function countDown(num){
   let i=num;
   while(i>=0){
