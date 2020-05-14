@@ -5,7 +5,7 @@ const string2 = ["surprise"];
 function writeCards(arr,string2){
  let array = []
   for (let i = 0; i < names.length; i++){
-     array.push(`Thank you, ${names[i]}, for the wonderful ${events} gift!`);
+     array.push(`Thank you, ${arr[i]}, for the wonderful ${string2} gift!`);
   }
   return array;
 }
