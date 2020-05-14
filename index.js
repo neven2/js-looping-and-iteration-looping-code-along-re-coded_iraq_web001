@@ -8,7 +8,7 @@ function writeCards(arr,string2){
   }
   return array;
 }
-writeCards(["Lisa", "Kaitlin", "Jan"],["surprise"]);
+writeCards(["Lisa", "Kaitlin", "Jan"],"surprise");
 function countDown(num){
   let i=num;
   while(i>=0){
