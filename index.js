@@ -11,8 +11,6 @@ for(let i=0;i<arr.length;i++){
 return array;
 }
 
-
-
 function countDown(num){
   let i=num;
   while(i>=0){
