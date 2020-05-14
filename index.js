@@ -9,7 +9,7 @@ function writeCards(arr,string2){
   }
   return array;
 }
-writeCards()
+writeCards(["Lisa", "Kaitlin", "Jan"],["surprise"]);
 function countDown(num){
   let i=num;
   while(i>=0){
