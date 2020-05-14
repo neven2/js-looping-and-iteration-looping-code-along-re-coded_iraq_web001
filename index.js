@@ -1,4 +1,5 @@
 // Code your solutions in this file
+
 const arr=["Lisa", "Kaitlin", "Jan"];
 function writeCards(arr,string1){
   const array=[];
