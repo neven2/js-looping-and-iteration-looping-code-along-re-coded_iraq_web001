@@ -1,7 +1,7 @@
 // Code your solutions in this file
 
 const names = ["Liza", "Kaitlin", "Jan"];
-const events = ["birthday"];
+const events = ["surprise"];
 function writeCards(names,events){
  let greeting = []
   for (let i = 0; i < names.length; i++){
