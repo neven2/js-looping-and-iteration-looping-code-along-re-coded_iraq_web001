@@ -1,14 +1,13 @@
 // Code your solutions in this file
 
-const arr=["Lisa", "Kaitlin", "Jan"];
-function writeCards(arr,string1){
-  const array=[];
-for(let i=0;i<arr.length;i++){
-
-  array.push("Thak you, "+arr[i]+", for the wonderful "+string1+" gift!");
- 
-}
-return array;
+const names = ["Liza", "Caitlin", "Jan"];
+const events = ["birthday"];
+function writeCards(names,events){
+ let greeting = []
+  for (let i = 0; i < names.length; i++){
+     greeting.push(`Thank you, ${names[i]}, for the wonderful ${events} gift!`);
+  }
+  return greeting;
 }
 
 function countDown(num){
