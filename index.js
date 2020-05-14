@@ -1,7 +1,6 @@
 // Code your solutions in this file
 
-const arr = ["Lisa", "Kaitlin", "Jan"];
-const string2 = ["surprise"];
+
 function writeCards(arr,string2){
  let array = []
   for (let i = 0; i < arr.length; i++){
